@@ -24,11 +24,11 @@
 
 ## Scenarios for multiple VM's
 * FirstScenario (Fixed set of vm's should be running always)
-![Preview](./images/scenario1.PNG)
+![Preview](https://raw.githubusercontent.com/asquarezone/AZUREClassRoom/master/feb2019/images/scenario1.png)
 
 
 * Second Scenario (Number of Vm's should be dynamic. ) They support scalein & scale out.
-![Preview](./images/scenario2.PNG)
+![Preview](https://raw.githubusercontent.com/asquarezone/AZUREClassRoom/master/feb2019/images/scenario2.png)
 
 
 ## VMSS can do the above
