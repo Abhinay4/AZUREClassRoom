@@ -122,7 +122,10 @@ forwarding packets is done ny router
 
 
 
-* Routers  q
+* Routers 
+
+    * System Defined Routing
+    * User Defined Routing
 
 
 
