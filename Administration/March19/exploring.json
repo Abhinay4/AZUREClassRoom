@@ -1,0 +1,14 @@
+{
+    "cloud":[
+        {
+            "azure": {
+                "network": ["VNET","NSG","NIC","VPN","Peering"],
+                "compute": ["VM","VMSS","LB","AGW"]
+            },
+            "aws":{
+                "network": ["VPC","ENI","SG","NACL","Peering","VPN"],
+                "compute":["EC2","ASG","ELB","NLB","ALB"]
+            }
+        }
+    ]
+}
