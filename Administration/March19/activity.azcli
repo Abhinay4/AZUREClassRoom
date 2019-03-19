@@ -11,3 +11,14 @@ az sql server create --location centralus --name qtazuresqldemo --resource-group
 
 # create the sql database
 az sql db create --name "qtstudents" --resource-group "group1" --server "qtazuresqldemo" --edition Basic --service-objective "Basic" --zone-redundant false
+
+
+# Get Vm list
+az vm list
+
+# Get Vm list with only vm name
+$name = az vm list --query "[0].name"
+
+# Get the Ip address of the Vm with name as $name
+
+az vm list-list-ip-addresses -g one -n qtdevops

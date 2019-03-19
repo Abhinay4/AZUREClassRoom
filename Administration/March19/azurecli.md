@@ -45,9 +45,24 @@
     * create a ubuntu free machine
 
 ## Queries:
-1. write azure cli to show all the storage account names
-2. write azure cli to show all the storage account names & locations
-3. Show virtual machines ip address
+* get ip address of Windows machine in group one
+```
+az vm list-ip-addresses -g one -n qtdevops --query "{ privateip: [0].virtualMachine.network.privateIpAddresses[0], publicip: [0].virtualMachine.network.publicIpAddresses[0].ipAddress }"
+```
+* write azure cli to show all the storage account names
+```
+az storage account list --query "[].name"
+```
+* write azure cli to show all the storage account names & locations
+```
+az storage account list --query "{ names: [*].name, location: [*].location }"
+```
+* Show virtual machines ip address
+
+* Stop One Vm & start the vm without using vm name/id
+```
+az vm start --ids $()
+```
 
 
 ## Next activities:
