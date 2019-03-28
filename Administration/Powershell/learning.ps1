@@ -1,5 +1,4 @@
-$items = Get-Item *
-foreach($item in $items)
-{
-    echo $item.Name +": "  + $item.GetType() 
-}
+$items = Get-ChildItem -File -Recurse *
+$item = $items[0]
+echo $item.Name
+
