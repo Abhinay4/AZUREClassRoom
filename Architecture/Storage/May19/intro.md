@@ -7,3 +7,7 @@
 * One place for all the storages possible in azure
 
 ![Preview](./images/StorageAccount.png)
+
+
+### Blob Types
+![Preview](./images/BlobTypes.png)
