@@ -14,3 +14,6 @@
         ![Preview](https://docs.microsoft.com/en-us/azure/storage/blobs/media/storage-blob-introduction/blob1.png)
 
 * Managed Disk
+
+## Disk Management MindMap
+![Preview](./images/AzureDiskManagement.png)
