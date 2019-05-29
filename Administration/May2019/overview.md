@@ -44,3 +44,14 @@ az login
 
 az group create --name <> --location 'centralus'
 ```
+
+
+
+## CLI Hacks
+1. Bookmark this [page](https://docs.microsoft.com/en-us/cli/azure/?view=azure-cli-latest)
+2. Go to the Reference Section & find you service & cli's
+
+3. Query google with __"azure <service> cli"__
+
+
+
