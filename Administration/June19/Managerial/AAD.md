@@ -14,4 +14,10 @@
                 * Enable Hyper-V
             * Cloud Account:
                 * Windows Server 2016
+
+
+## Concepts
+![Preview](./images/classicAD.png)
+
+![Preview](./images/AAD.png)
                 
